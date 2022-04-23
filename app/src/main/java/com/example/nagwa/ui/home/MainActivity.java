@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         binding=ActivityMainBinding.inflate(getLayoutInflater());
         View view=binding.getRoot();
         setContentView(view);
-        adapter=new NagwaAdapter();
+        adapter=new NagwaAdapter(this);
         binding.recyclerMain.setAdapter(adapter);
 
 //        call the viewmodel without constructor by using hilt
