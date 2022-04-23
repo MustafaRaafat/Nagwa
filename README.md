@@ -1,10 +1,10 @@
 # Nagwa project
-
 Assignment - Android Developer
 
 ## Description of the coding assessment task.
-
 The goal of this task is to check my knowledge, speed, code quality, UI background .
+
+---
 
 ## Fake responses for the list of videos and books.
 
@@ -25,5 +25,5 @@ The following is a list of the main dependencies that are used in this project.
 * RXJava and RXAndroid
 * Dagger hilt
 
-This application is written by java programming language.
+This application is written by java programming language.  
 ps: Coroutine only work when using Kotlin so I used RXAndroid and RXJava instead.
